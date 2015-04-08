@@ -110,7 +110,7 @@
 						label : data.labels[index],
 						datasetLabel: dataset.label,
 						strokeColor : dataset.pointStrokeColor,
-						fillColor : dataset.pointColor,
+						fillColor : dataset.pointColor[index],
 						highlightFill : dataset.pointHighlightFill || dataset.pointColor,
 						highlightStroke : dataset.pointHighlightStroke || dataset.pointStrokeColor
 					}));
